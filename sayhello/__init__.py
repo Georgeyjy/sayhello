@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask('sayhello')
 app.config.from_pyfile('settings.py')
 
-db =SQLAlchemy(app)
+db = SQLAlchemy(app)
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 
